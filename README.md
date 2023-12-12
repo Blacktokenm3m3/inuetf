@@ -1,87 +1,81 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>BlackRock Inu</title>
-  <style>
-    /* Título principal */
-    .titulo-principal {
-      text-align: center;
-      color: #e1dfda;
-      font-size: 3em;
-      font-family: sans-serif;
-    }
+body {
+  background-image: url("https://image.freepik.com/vector-gratis/perros-divertidos-con-criptomonedas-fondo_128449-176.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    /* Texto del proyecto */
-    .texto-proyecto {
-      color: #e1dfda;
-      font-size: 1.5em;
-      font-family: sans-serif;
-    }
+.titulo {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
 
-    /* Tokenomics */
-    .tokenomics {
-      color: #e1dfda;
-      font-size: 1.5em;
-      font-family: sans-serif;
-    }
+.desarrollo {
+  background-color: #d3d3d3;
+  padding: 20px;
+}
 
-    /* Fases del proyecto */
-    .fases-proyecto {
-      color: #e1dfda;
-      font-size: 1.5em;
-      font-family: sans-serif;
-    }
+.etapa {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
 
-    /* Cartel de mantenimiento */
-    .mantenimiento {
-      color: #e1dfda;
-      font-size: 1.5em;
-      font-family: sans-serif;
-    }
+.etapa:hover {
+  background-color: #ff0000;
+}
 
-    /* Comando de depósito */
-    .deposito {
-      color: #e1dfda;
-      font-size: 2em;
-      font-family: sans-serif;
-    }
-  </style>
-</head>
-<body>
-  <div class="titulo-principal">
-    BlackRock Inu: la mascota oficial de los ETF
-  </div>
+.botones {
+  width: 100px;
+  height: 50px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 10px;
+}
 
-  <div class="texto-proyecto">
-    <p>BlackRock Inu es un meme token impulsado por la comunidad que se basa en la mascota de los ETF. El proyecto se encuentra en fase de desarrollo, y los primeros en invertir en BlackRock Inu tendrán un rendimiento del 250% antes de que suba de fase.</p>
-  </div>
+.botones:hover {
+  background-color: #ff0000;
+}
 
-  <div class="tokenomics">
-    <ul>
-      <li>Liquidez: 30%</li>
-      <li>Quema: 30%</li>
-      <li>Pre venta: 40%</li>
-    </ul>
-  </div>
+.wallet {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+}
 
-  <div class="fases-proyecto">
-    <ul>
-      <li>Fase 1: Desarrollo (actual)</li>
-      <li>Fase 2: Lanzamiento (enero de 2024)</li>
-      <li>Fase 3: Expansión (julio de 2024)</li>
-    </ul>
-  </div>
+.cuenta-regresiva {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
 
-  <div class="mantenimiento">
-    <p>La página web está en mantenimiento. Próximamente se incluirán más información y características.</p>
-  </div>
+.aviso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  <div class="deposito">
-    <h2>Depósito para inversores iniciales</h2>
-    <p>Para depositar en la pre venta de BlackRock Inu, envía tus tokens a la siguiente dirección:</p>
-    <p>0xCBBfa9cbC3ffe46c9bd5cbe6b4e395C923C4A545</p>
-    <p>La pre venta durará 30 días. Los primeros inversores recibirán un rendimiento del 250%, más un posible bono según la capitalización del token.</p>
-  </div>
-</body>
-</html>
+.aviso-texto {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+}
