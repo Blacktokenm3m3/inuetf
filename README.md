@@ -1,103 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Rock Inu: La Mascota de los ETF</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        h1, h2, p {
-            text-align: center;
-        }
-        h1 {
-            color: #000;
-        }
-        h2 {
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .tokenmics {
-            background-color: #fff;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .square {
-            background-color: #000;
-            color: #fff;
-            width: 400px;
-            height: 200px;
-            border-radius: 10px;
-            text-align: center;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .square h1 {
-            font-size: 3em;
-        }
-        .square p {
-            font-size: 1.5em;
-            margin-top: 10px;
-        }
-        .cta {
-            background-color: #000;
-            color: #fff;
-            width: 200px;
-            height: 50px;
-            border-radius: 10px;
-            text-align: center;
-            margin: 0 auto;
-            padding: 10px;
-            font-size: 1.5em;
-            cursor: pointer;
-        }
-        .cta:hover {
-            background-color: #000000;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>BlackRock Inu</title>
+  <style>
+    /* Título principal */
+    .titulo-principal {
+      text-align: center;
+      color: #e1dfda;
+      font-size: 3em;
+      font-family: sans-serif;
+    }
+
+    /* Texto del proyecto */
+    .texto-proyecto {
+      color: #e1dfda;
+      font-size: 1.5em;
+      font-family: sans-serif;
+    }
+
+    /* Tokenomics */
+    .tokenomics {
+      color: #e1dfda;
+      font-size: 1.5em;
+      font-family: sans-serif;
+    }
+
+    /* Fases del proyecto */
+    .fases-proyecto {
+      color: #e1dfda;
+      font-size: 1.5em;
+      font-family: sans-serif;
+    }
+
+    /* Cartel de mantenimiento */
+    .mantenimiento {
+      color: #e1dfda;
+      font-size: 1.5em;
+      font-family: sans-serif;
+    }
+
+    /* Comando de depósito */
+    .deposito {
+      color: #e1dfda;
+      font-size: 2em;
+      font-family: sans-serif;
+    }
+  </style>
 </head>
 <body>
+  <div class="titulo-principal">
+    BlackRock Inu: la mascota oficial de los ETF
+  </div>
 
-    <div class="container">
-        <h1>Black Rock Inu: La Mascota de los ETF</h1>
-        <p>Promocionando nuestro nuevo meme token basado en los ETF cripto.</p>
+  <div class="texto-proyecto">
+    <p>BlackRock Inu es un meme token impulsado por la comunidad que se basa en la mascota de los ETF. El proyecto se encuentra en fase de desarrollo, y los primeros en invertir en BlackRock Inu tendrán un rendimiento del 250% antes de que suba de fase.</p>
+  </div>
 
-        <h2>Impulsado por la Comunidad</h2>
-        <p>¡Sé parte de la revolución! Los primeros en comprar el token antes de su siguiente fase obtendrán un rendimiento del 250%.</p>
+  <div class="tokenomics">
+    <ul>
+      <li>Liquidez: 30%</li>
+      <li>Quema: 30%</li>
+      <li>Pre venta: 40%</li>
+    </ul>
+  </div>
 
-        <div class="tokenmics">
-            <h2>Tokenmics</h2>
-            <ul>
-                <li>30% - Quema</li>
-                <li>60% - Preventa</li>
-                <li>20% - CEX</li>
-            </ul>
-        </div>
+  <div class="fases-proyecto">
+    <ul>
+      <li>Fase 1: Desarrollo (actual)</li>
+      <li>Fase 2: Lanzamiento (enero de 2024)</li>
+      <li>Fase 3: Expansión (julio de 2024)</li>
+    </ul>
+  </div>
 
-        <div class="square">
-            <h1>Deposita BNB o USDT</h1>
-            <p>A la dirección de billetera:</p>
-            <p><b>0xCBBfa9cbC3ffe46c9bd5cbe6b4e395C923C4A545</b></p>
-            <p>Red: BNB</p>
-            <a href="#" class="cta">Depositar</a>
-        </div>
+  <div class="mantenimiento">
+    <p>La página web está en mantenimiento. Próximamente se incluirán más información y características.</p>
+  </div>
 
-    </div>
-
-    <div class="cta">
-        <p>Esta página web se encuentra en mejoras para el usuario y comunidad.</p>
-        <p>Apuesta a Black Rock Inu en su paso a inicial y recibe un bono de 250%.</p>
-    </div>
-
+  <div class="deposito">
+    <h2>Depósito para inversores iniciales</h2>
+    <p>Para depositar en la pre venta de BlackRock Inu, envía tus tokens a la siguiente dirección:</p>
+    <p>0xCBBfa9cbC3ffe46c9bd5cbe6b4e395C923C4A545</p>
+    <p>La pre venta durará 30 días. Los primeros inversores recibirán un rendimiento del 250%, más un posible bono según la capitalización del token.</p>
+  </div>
 </body>
 </html>
